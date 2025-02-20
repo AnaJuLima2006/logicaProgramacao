@@ -3,7 +3,10 @@ programa {
     
     real base, altura, lado, diagonalMaior, diagonalMenor, baseMaior, baseMenor, raio, area, pi
 
+    escreva("Escolha um numero de 1 a 7 e calcule a area da figura...")
     //Retangulo
+leia
+
     escreva("Digite a base do retângulo: ")
     leia(base)
 
