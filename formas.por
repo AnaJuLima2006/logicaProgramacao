@@ -1,16 +1,7 @@
 programa {
   funcao inicio() {
     
-    real base
-    real altura
-    real lado
-    real diagonalMaior
-    real diagonalMenor
-    real baseMaior
-    real baseMenor
-    real raio
-    real area
-    real pi
+    real base, altura, lado, diagonalMaior, diagonalMenor, baseMaior, baseMenor, raio, area, pi
 
     //Retangulo
     escreva("Digite a base do retângulo: ")
