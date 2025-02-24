@@ -1,3 +1,4 @@
+//Hora de Codar Dois!!! Exercício 8
 programa {
   funcao inicio() {
     real numeroUm, numeroDois, numeroTres, numeroQuatro, soma, media
