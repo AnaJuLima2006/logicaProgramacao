@@ -1,3 +1,4 @@
+//Hora de Codar Dois!!! Exercicio 7
 programa {
   funcao inicio() {
     real numeroUm, numeroDois, numeroTres, numeroQuatro, numeroCinco, numeroSeis
