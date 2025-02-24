@@ -1,6 +1,6 @@
 programa {
   funcao inicio() {
-    inteiro numeroUm, numeroDois, numeroTres
+    real numeroUm, numeroDois, numeroTres
 
     escreva("Digite o primeiro número: ")
     leia(numeroUm)
