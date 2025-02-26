@@ -2,20 +2,20 @@ programa {
 //Hora de Codar Três, Exercício Cinco!!
   funcao inicio() {
     real media
-    inteiro numeroUm, numeroDois
+    inteiro primeiro, ultimo
 
     faca {
       escreva("Digite o primeiro número: ")
-      leia(numeroUm)
+      leia(primeiro)
       escreva("Digite o segundo número: ")
-      leia(numeroDois)
+      leia(ultimo)
 
-      se (numeroUm >= numeroDois) {
+      se (primeiro >= ultimo) {
         escreva("Erro: O primeiro número deve ser menor que o segundo. Tente novamente.\n\n")
       }
-    } enquanto (numeroUm >= numeroDois) // repete o programa até que numeroUm seja menor que numeroDois
+    } enquanto (primeiro >= ultimo) // repete o programa até que numeroUm seja menor que numeroDois
 
-    media = (numeroUm + numeroDois) / 2 //foi usado a formula da média de uma progressão aritmética
-    escreva("A média aritmética dos números entre ",  numeroUm,  " e " , numeroDois,  " é: ", media)
+    media = (primeiro + ultimo) / 2 //foi usado a formula da média de uma progressão aritmética
+    escreva("A média aritmética dos números entre ",  primeiro,  " e " , ultimo,  " é: ", media)
   }
 }
