@@ -1,8 +1,8 @@
 programa {
 	inclua biblioteca Util 
 	
-	funcao inicio() 
-	{
+	funcao inicio() {
+		//Hora de codar Três, exercício Dois!!
 		inteiro contador = 30
 		
 		enquanto (contador > 0){
