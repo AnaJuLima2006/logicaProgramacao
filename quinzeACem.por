@@ -1,4 +1,5 @@
 programa {
+  //Hora de Codar Três, Exercício Quatro!!
   funcao inicio() {
     inteiro soma = 0
     inteiro qtde = 0
