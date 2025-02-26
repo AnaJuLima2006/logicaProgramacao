@@ -1,5 +1,5 @@
 programa {
-    
+   //Hora de Codar Três, exercício Três
   funcao inicio() {
     inteiro contador = 10
         
