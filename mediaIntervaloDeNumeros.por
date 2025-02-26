@@ -1,5 +1,5 @@
 programa {
-//Hora de Codar Três, Exercício 5!!
+//Hora de Codar Três, Exercício Cinco!!
   funcao inicio() {
     real media
     inteiro numeroUm, numeroDois
