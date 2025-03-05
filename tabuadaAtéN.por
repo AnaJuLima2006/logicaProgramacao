@@ -1,4 +1,5 @@
 programa {
+//Hora de Codar Três, Exercício Dez!!
   funcao inicio() {
     inteiro n
     escreva("Digite um número: ")
