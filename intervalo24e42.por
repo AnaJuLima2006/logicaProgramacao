@@ -10,9 +10,9 @@ programa {
         escreva("Número ", i, ": ")
         leia(numero)
         se (numero >= 24 e numero <= 42) {
-          dentroIntervalo++
+          dentroIntervalo = dentroIntervalo + 1
         } senao {
-          foraIntervalo++ 
+          foraIntervalo = foraIntervalo + 1 
         }
       }
 
