@@ -7,17 +7,19 @@ programa {
       escreva("Digite suas notas: \n")
 
       para (inteiro i = 1; i <= 6; i++) {
-        se(nota > 0 e nota <= 10){
-          escreva("Nota", i , "° \n")
+        enquanto(verdadeiro){
+          escreva("Nota ", i , "° :\n")
           leia(nota)
-          soma = nota + 1
-        }senao{
-          escreva("Valor inválido! Digite novamente.")
+
+          se(nota >= 0 e nota <= 10){
+            soma = soma + nota
+            pare
+          }senao{
+            escreva("Valor inválido! Digite novamente.\n")
+          }
         }
-      
       }
-        media = soma/6
-        escreva(media)
-      
+      media = soma/6
+      escreva("Sua média é: " , media)
     }
 }
