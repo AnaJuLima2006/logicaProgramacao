@@ -1,16 +1,16 @@
 programa{
-	
-    real saldo = 300.00
-    cadeia nome
-    cadeia extrato = ""
+  //Hora de Codar 5
+  real saldo = 150.00
+  cadeia nome
+  cadeia extrato = ""
 
-    funcao inicio(){
-      escreva("Digite o seu nome:\n")
-      leia(nome)
-      caixa()
-    }
+  funcao inicio(){
+    escreva("Digite o seu nome:\n")
+    leia(nome)
+    caixa()
+  }
 
-    funcao caixa() {
+  funcao caixa() {
 
     inteiro opcao 
     
@@ -117,6 +117,7 @@ programa{
 
     escreva("Qual o valor da transferência? ")
 		leia(transferencia)
+    
 
 		se (transferencia > saldo ou transferencia <= 0 ){
       escreva("Operação não autorizada! Por favor, informe um número válido.\n")
