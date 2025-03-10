@@ -1,5 +1,10 @@
-programa {
 //Hora de Codar Três, Exercício Cinco!!
+//Faça um algoritmo que calcule e escreva a mídia aritmética dos dois números inteiros 
+//informados pelo usuário e todos os números inteiros entre eles. Considere que o 
+//primeiro sempre será menor que o segundo.
+
+programa {
+
   funcao inicio() {
     real media
     inteiro primeiro, ultimo
