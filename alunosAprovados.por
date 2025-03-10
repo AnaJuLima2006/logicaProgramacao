@@ -6,7 +6,6 @@
 //a quantidade de alunos aprovados.
 
 programa {
-//Hora de Codar Três, Exercício Seis!!
   funcao inicio() {
     real media, notaUm, notaDois
     cadeia resposta
