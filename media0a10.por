@@ -1,9 +1,11 @@
-programa {
 //Hora de Codar Três, Exercício Sete!!
-//Escreva um programa que calcule a média de quatro números informados pelo usuário, 
-//mas somente se esses números forem maiores que 0 e menores que 10. No final, se a 
-//média for maior que cinco o usuário receberá uma mensagem "Você passou no teste".
-//Em qualquer outra situação, ele receberá uma mensagem de "tente novamente"
+//Escreva um algoritmo para ler as notas de avaliações de um aluno, calcule e imprima
+//a média (simples) desse aluno. Só devem ser aceitos valores válidos durante a 
+//leitura (0 a 10) para cada nota. São 6 notas ao total.
+//Caso o valor informado para qualquer uma das notas esteja fora do limite previsto,
+//deve ser solicitado um novo valor ao usuário.
+programa {
+
     funcao inicio() {
       real nota, media
       real soma = 0
