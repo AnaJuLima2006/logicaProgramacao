@@ -4,8 +4,7 @@
 //Adição, 2. Subtração, 3. Divisão, 4. Multiplicação).
 //O programa deve calcular e escrever o resultado dessa operação sobre os dois 
 //valores lidos. 
-
-Observação: Considere que só serão lidos os valores 1, 2, 3 ou 4 para as operações
+//Observação: Considere que só serão lidos os valores 1, 2, 3 ou 4 para as operações
 programa {
   funcao inicio() {
     
