@@ -6,12 +6,12 @@ programa {
 	
 	funcao inicio() {
 		
-		inteiro i = 30 //contador
+		inteiro contador = 30 
 		
-		enquanto (i > 0){
-			escreva ("Detonação em: ", i, "\n\n")
+		enquanto (contador > 0){
+			escreva ("Detonação em: ", contador, "\n\n")
 
-		  i = i - 1
+		  contador = contador - 1
 		  Util.aguarde(1000) // Espera um segundo para exibir os dados da contagem
 		}
 		escreva ("EXPLOSÃO!!!!!\n")
