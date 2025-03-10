@@ -49,17 +49,17 @@ programa{
 
     }
 
-}
+  }
   
   funcao verNome(){
     escreva("Olá ", nome, " é um prazer ter você por aqui!\n")
   }
-	funcao verSaldo(){
+  funcao verSaldo(){
     escreva("Seu saldo atual é: ", saldo, "\n")
     caixa()
-	}
+  }
 
-	funcao verExtrato(){
+  funcao verExtrato(){
     escreva("Seu extrato de transações é:\n")
     se (extrato == "") {
       escreva("Nenhuma transação registrada até o momento.\n")
@@ -67,9 +67,9 @@ programa{
       escreva(extrato) 
     }
     caixa()
-	}
+  }
 
-	funcao fazerDeposito() {
+   funcao fazerDeposito() {
 
 		real deposito
 
