@@ -1,4 +1,6 @@
 //Hora de Codar Dois!!! Exercicio 5
+//Faça um programa que leia 6 valores informados pelo usuário, calcule, 
+//exiba os números informados e escreva a média aritmética desses valores lidos.
 programa {
   funcao inicio() {
     real numeroUm, numeroDois, numeroTres,numeroQuatro, numeroCinco, numeroSeis, soma, media
