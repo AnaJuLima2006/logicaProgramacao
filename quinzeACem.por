@@ -1,5 +1,8 @@
+//Hora de Codar Três, Exercício Quatro!!
+//Faça um algoritmo que calcule e escreva a mídia aritmética 
+//dos números inteiros entre 15 (inclusive) e 100 (inclusive).
 programa {
-  //Hora de Codar Três, Exercício Quatro!!
+  
   funcao inicio() {
     real media
 
