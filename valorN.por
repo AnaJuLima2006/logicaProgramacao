@@ -1,8 +1,11 @@
-programa {
 //Hora de Codar Três, Exercício Oito!!
+//Ler um valor N e imprimir todos os valores inteiros entre 1 (inclusive) e N (inclusive). 
+//Considere que o N será sempre maior que ZERO. N é um valor informado pelo usuário
+
+programa {
   funcao inicio() {
     inteiro n
-    escreva("Digite um número para N (maoir que 0): ")
+    escreva("Digite um número para N (maior que 0): ")
     leia(n)
 
     se (n > 0){
