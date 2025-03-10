@@ -7,6 +7,7 @@ programa{
   funcao inicio(){
     escreva("Digite o seu nome:\n")
     leia(nome)
+    verNome()
     caixa()
   }
 
@@ -14,8 +15,6 @@ programa{
 
     inteiro opcao 
     
-    verNome()
-
     escreva("Escolha uma opção:\n")
     escreva("1. Ver Saldo\n")
     escreva("2. Ver Extrato\n")
@@ -112,29 +111,39 @@ programa{
 		real transferencia
     inteiro conta
 
-		escreva("Qual o número da conta? ")
-		leia(conta)
+    enquanto(verdadeiro){
 
-    escreva("Qual o valor da transferência? ")
-		leia(transferencia)
+      escreva("Qual o número da conta? ")
+      leia(conta)
+
+      se(conta > 0){
+        pare
+      }senao{
+        escreva("Operação não autorizada! Por favor, informe um número válido.\n")
+      }
+
+      escreva("Qual o valor da transferência? ")
+		  leia(transferencia)
+
+      se(transferencia > saldo ou transferencia <= 0 ){
+        escreva("Operação não autorizada! Por favor, informe um número válido.\n")
+      }senao {
+        saldo = saldo - transferencia
+        extrato = extrato + "Transferência de R$ " + transferencia + " realizada com sucesso para a conta " + conta + " .\n"
+        verSaldo()
+      }
+    }
+
     
-
-		se (transferencia > saldo ou transferencia <= 0 ){
-      escreva("Operação não autorizada! Por favor, informe um número válido.\n")
-      fazerTransferencia()
-		}senao {
-      saldo = saldo - transferencia
-      extrato = extrato + "Transferência de R$ " + transferencia + " realizada para a conta " + conta + ".\n"
-      verSaldo()
-		}
-	}
-
+  }
+    
 	funcao erro() {
 		escreva("Opção Inválida!!!")
 		caixa()
 	}
 
 	funcao sair(){
-		escreva("Programa encerrado com sucesso.")
+		escreva(nome , " , foi um prazer ter você por aqui!\n")
+   
 	}
 }
