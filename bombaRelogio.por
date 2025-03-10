@@ -6,7 +6,7 @@ programa {
 	
 	funcao inicio() {
 		
-		inteiro i = 30
+		inteiro i = 30 //contador
 		
 		enquanto (i > 0){
 			escreva ("Detonação em: ", i, "\n\n")
