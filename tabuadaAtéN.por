@@ -1,5 +1,7 @@
-programa {
 //Hora de Codar Três, Exercício Dez!!
+//Escreva um programa para imprimir todas as tabuadas de 1 a N. 
+//N será informado pelo usuário.
+programa {
   funcao inicio() {
     inteiro n
     escreva("Digite um número: ")
