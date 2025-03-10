@@ -1,5 +1,8 @@
-programa {
 //Hora de Codar Três, Exercício Onze!!
+//Escreva um programa em que o usuário informe 10 valores e escreva quantos esses
+//valores lidos estão entre os números 24 e 42 (incluindo os valores 24 e 42) e
+//quantos deles estão fora deste intervalo.
+programa {
     funcao inicio() {
       inteiro numero
       inteiro dentroIntervalo = 0, foraIntervalo = 0
