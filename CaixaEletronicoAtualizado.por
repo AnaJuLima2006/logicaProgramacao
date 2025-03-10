@@ -49,7 +49,7 @@ programa{
 
     }
 
-	}
+}
   
   funcao verNome(){
     escreva("Olá ", nome, " é um prazer ter você por aqui!\n")
@@ -110,7 +110,6 @@ programa{
 	
 		real transferencia
     inteiro conta
-
     enquanto(verdadeiro){
 
       escreva("Qual o número da conta? ")
@@ -121,6 +120,8 @@ programa{
       }senao{
         escreva("Operação não autorizada! Por favor, informe um número válido.\n")
       }
+    }
+    enquanto(verdadeiro){
 
       escreva("Qual o valor da transferência? ")
 		  leia(transferencia)
@@ -128,12 +129,12 @@ programa{
       se(transferencia > saldo ou transferencia <= 0 ){
         escreva("Operação não autorizada! Por favor, informe um número válido.\n")
       }senao {
-        saldo = saldo - transferencia
-        extrato = extrato + "Transferência de R$ " + transferencia + " realizada com sucesso para a conta " + conta + " .\n"
-        verSaldo()
+        pare
       }
     }
-
+    saldo = saldo - transferencia
+    extrato = extrato + "Transferência de R$ " + transferencia + " realizada com sucesso para a conta " + conta + " .\n"
+    verSaldo()
     
   }
     
