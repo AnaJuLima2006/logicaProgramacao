@@ -1,4 +1,7 @@
-Hora de Codar Dois!!! Exercício 10
+//Hora de Codar Dois!!! Exercício 10
+//Tendo como entrada a altura e o gênero designado ao nascer (codificado da seguinte 
+//forma: 1: feminino - 2: masculino - ) de uma pessoa, construa um programa que 
+//calcule e imprima seu peso ideal, utilizando as seguintes fórmulas.
 programa {
   funcao inicio() {
     
