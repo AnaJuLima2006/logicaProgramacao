@@ -2,13 +2,14 @@ programa{
   //Hora de Codar 5
   real saldo = 150.00
   cadeia nome
+  inteiro senha = 3589
   cadeia extrato = ""
 
   funcao inicio(){
     escreva("Digite o seu nome:\n")
     leia(nome)
     verNome()
-    caixa()
+    login()
   }
 
   funcao caixa() {
@@ -53,6 +54,18 @@ programa{
   
   funcao verNome(){
     escreva("Olá ", nome, " é um prazer ter você por aqui!\n")
+  }
+
+  funcao login(){
+    escreva("Digite a senha:\n")
+    leia(senha)
+    se(senha == "3589"){
+      caixa()
+    }senao{
+      escreva("Senha incorreta, tente novamente!!!\n")
+      login()
+    }
+    
   }
 	funcao verSaldo(){
     escreva("Seu saldo atual é: ", saldo, "\n")
@@ -121,6 +134,7 @@ programa{
         escreva("Operação não autorizada! Por favor, informe um número válido.\n")
       }
     }
+
     enquanto(verdadeiro){
 
       escreva("Qual o valor da transferência? ")
@@ -139,12 +153,12 @@ programa{
   }
     
 	funcao erro() {
-		escreva("Opção Inválida!!!")
+		escreva("Opção Inválida!!! Escolha um número de 1 a 6\n")
 		caixa()
 	}
 
 	funcao sair(){
-		escreva(nome , " , foi um prazer ter você por aqui!\n")
+		escreva(nome, " , foi um prazer ter você por aqui!\n")
    
 	}
 }
