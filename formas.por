@@ -40,7 +40,7 @@ programa {
       escreva("Digite a diagonal menor do losango: ")
       leia(diagonalMenor)
 
-      area = diagonalMaior * diagonalMenor/2
+      area = (diagonalMaior * diagonalMenor)/2
 
       escreva("O resultado da área do losango é: " +  area + "\n")
       pare
