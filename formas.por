@@ -59,6 +59,17 @@ programa {
       escreva("O resultado da área do trapézio é: " +  area + "\n")
       pare
     caso 5: 
+      //Parelogramo
+      escreva("Digite a base do parelogramo: ")
+      leia(base)
+      escreva("Digite a altura do parelogramo: ")
+      leia(altura)
+
+      area = base * altura
+
+      escreva("O resultado da área do parelogramo é: " +  area + "\n")
+      pare
+    caso 6: 
       //Triângulo
       escreva("Digite a base do triângulo: ")
       leia(base)
@@ -69,7 +80,7 @@ programa {
 
       escreva("O resultado da área do triângulo é: " +  area + "\n")
       pare
-    caso 6:
+    caso 7:
       //Circulo
       escreva("Digite o raio: ")
       leia(raio)
@@ -79,7 +90,7 @@ programa {
       escreva("O resultado da área do circulo é: " +  area + "\n")
       pare
     caso contrario:
-      escreva("Esse número é inválido!!!!")
+      escreva("Esse número é inválido! Escolha um número de 1 a 7.")
 
     }
     
