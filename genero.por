@@ -8,7 +8,7 @@ programa {
     real altura, peso
     inteiro genero
 
-    escreva("Digite a sua altura: ")
+    escreva("Digite a sua altura (metros): ")
     leia(altura)
     escreva("Digite o gênero que você foi designado ao nascer (codificado da seguinte forma: 1-  feminino e 2 - masculino: ")
     leia(genero)
