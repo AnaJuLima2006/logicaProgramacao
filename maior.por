@@ -1,6 +1,6 @@
 //Hora de codar Dois!!! Exercicio 1
 //Escreva um programa em que o usuário informe dois números. Então escreva em 
-tela o maior deles.
+//tela o maior deles.
 programa {
   funcao inicio() {
    inteiro numeroUm, numeroDois
