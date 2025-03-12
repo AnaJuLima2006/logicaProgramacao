@@ -8,8 +8,8 @@
 programa {
   funcao inicio() {
     
-    inteiro numero, valorUm, valorDois
-    real resultado
+    inteiro numero
+    real resultado, valorUm, valorDois
 
     escreva("Escolha um número de 1 a 4 para realizar a operação: \n")
     escreva("\n 1 - Adição")
