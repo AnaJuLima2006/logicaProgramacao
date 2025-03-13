@@ -8,7 +8,7 @@ programa {
 		
 		inteiro contador = 30 
 		
-		enquanto (contador > 0){
+		enquanto (contador >= 0){
 			escreva ("Detonação em: ", contador, "\n\n")
 
 		  contador = contador - 1
