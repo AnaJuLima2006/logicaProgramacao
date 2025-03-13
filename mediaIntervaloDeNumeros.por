@@ -8,6 +8,8 @@ programa {
   funcao inicio() {
     real media
     inteiro primeiro, ultimo
+    inteiro soma = 0
+    inteiro qtde = 0 
 
     faca {
       escreva("Digite o primeiro número: ")
@@ -20,7 +22,12 @@ programa {
       }
     } enquanto (primeiro >= ultimo) // repete o programa até que numeroUm seja menor que numeroDois
 
-    media = (primeiro + ultimo) / 2 //foi usado a formula da média de uma progressão aritmética
+   para (inteiro numero = primeiro; numero <= ultimo; numero++){
+      soma += numero
+      qtde++
+   }
+
+    media = soma / qtde
     escreva("A média aritmética dos números entre ",  primeiro,  " e " , ultimo,  " é: ", media)
   }
 }
